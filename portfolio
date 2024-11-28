@@ -1,0 +1,145 @@
+portfolio/
+│
+├── index.html        (Work Page)
+├── about.html        (About Me Page)
+├── css/
+│   └── styles.css    (Optional Custom Styles)
+└── assets/
+    └── cv.pdf        (Your CV file)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mohamed Hashish - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Dr. Mohamed Hashish</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to My Dental Portfolio</h1>
+            <p>Explore my expertise and exceptional dental work</p>
+        </div>
+    </header>
+
+    <!-- Work Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">My Work</h2>
+        <div class="row">
+            <!-- Add Images or Cards for Dental Work -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Dental Work 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Smile Makeover</h5>
+                        <p class="card-text">A stunning transformation for a happy smile.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Dental Work 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Teeth Whitening</h5>
+                        <p class="card-text">Bright smiles with advanced whitening techniques.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Dental Work 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Dental Implants</h5>
+                        <p class="card-text">Restoring smiles with precision and care.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-light">
+        <p>&copy; 2024 Dr. Mohamed Hashish. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dr. Mohamed Hashish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Dr. Mohamed Hashish</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/500x300" alt="Dr. Mohamed Hashish" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Hello, I am Dr. Mohamed Hashish, a professional dentist with years of experience in transforming smiles. My passion is to provide top-notch dental care with a personal touch.
+                </p>
+                <p>
+                    I specialize in aesthetic dentistry, dental implants, and preventive care. My mission is to make every patient leave with a confident smile.
+                </p>
+                <a href="assets/cv.pdf" class="btn btn-primary mt-3" target="_blank">Download My CV</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-light">
+        <p>&copy; 2024 Dr. Mohamed Hashish. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #666;
+}
